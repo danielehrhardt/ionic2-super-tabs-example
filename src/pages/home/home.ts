@@ -2,8 +2,8 @@ import {Component, ViewChild} from '@angular/core';
 
 import {IonicPage, NavController, NavParams} from 'ionic-angular';
 // import {SuperTabsController} from "ionic2-super-tabs";
-import { SuperTabsController } from '../../ionic2-super-tabs/src';
-import {SuperTabs} from "../../ionic2-super-tabs/src/components/super-tabs";
+import { SuperTabsController } from 'ionic2-super-tabs';
+import {SuperTabs} from "ionic2-super-tabs";
 
 @IonicPage({
   segment: 'home/:type'
@@ -19,6 +19,7 @@ export class HomePage {
   page1: any = 'Page1Page';
   page2: any = 'Page2Page';
   page3: any = 'Page3Page';
+
 
   showIcons: boolean = true;
   showTitles: boolean = true;

@@ -47,7 +47,12 @@ export class MyApp {
       name: 'Partial Height - Icons only',
       page: 'PartialHomePage',
       params: { type: 'icons-only' }
-    }
+    },
+    {
+      name: 'Test',
+      page: 'TestPage',
+      params: { type: 'icons-only' }
+    },
   ];
 
   constructor(platform: Platform, splashScreen: SplashScreen, statusBar: StatusBar) {
